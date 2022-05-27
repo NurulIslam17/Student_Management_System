@@ -1,0 +1,65 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.header 
+{
+    background-color: skyblue;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    line-height: 70px;
+    padding-left: 30px;
+    width: 100%;
+}
+.logout
+{
+	float: right;
+	padding-right: 30px;
+}
+.logout,a:hover
+{
+	text-decoration: none!important;
+	color: white!important;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+ul
+{
+	background-color: #95afc0;
+	width: 15%;
+	height: 100%;
+	position: fixed;
+	padding-top: 5%;
+	margin-top: 5%;
+	padding-left: 3%;
+	text-align: left;
+}
+
+ul li
+{
+	list-style: none;
+	padding-bottom: 15px;
+	font-size: 17px;
+
+}
+
+ul li a
+{
+	color: white;
+}
+
+ul li a:hover
+{
+	color: black;
+	text-decoration: none;
+}
+
+.contents
+{
+	padding-left: 18%;
+	padding-top: 5%;
+	padding-right: 10px;
+	text-align: justify;
+}
